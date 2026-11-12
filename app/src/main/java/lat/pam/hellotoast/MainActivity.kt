@@ -54,8 +54,8 @@ class MainActivity : AppCompatActivity() {
 
         buttonSwitchPage.setOnClickListener(View.OnClickListener {
             val intent = Intent(this, MainActivity2::class.java).apply {
-                putExtra("key_nama", "Aldy Rialdy")
-                putExtra("key_umur", 25)
+                putExtra("key_nama", "Asad Farhan")
+                putExtra("key_umur", 19)
             }
             startActivity(intent)
         })
